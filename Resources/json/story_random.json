@@ -1,0 +1,50 @@
+[
+   {
+      "id": 0,
+      "name": "Story",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Centurion ",
+               "srb": "Стотинаре "
+            }
+         },
+         {
+            "case": [
+               "Game_CTRL.knowledge_laomd_coat_of_arms",
+               "==",
+               1
+            ],
+            "type": "text",
+            "body": {
+               "eng": " the bannerbearer, showing a flag with the coat of arms that you saw at the Chalicier's Head Quarters.## -I've found it while searching the storages. What do you say sire? Should I place it on the roof, show it to the skies?",
+               "srb": " барјактар, показујући заставу са непознатим грбом"
+            }
+         }
+      ],
+      "choices": [
+         {
+            "text": {
+               "eng": "To the Skies, and to the Beasts on Earth! Do that, bannerbearer!",
+               "srb": ""
+            },
+            "variables": [
+               {
+                  "script": "variable_set_by_string",
+                  "arguments": [
+                     "Fort.flag",
+                     "=",
+                     "old_fort_flag"
+                  ]
+               }
+            ],
+            "jump_to_index": 1,
+            "timers": []
+         }
+      ],
+      "next_index": 1,
+      "next_room": ""
+   }
+]
+

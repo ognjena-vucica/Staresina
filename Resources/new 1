@@ -1,0 +1,348 @@
+
+
+[
+   {
+      "id": 0,
+      "name": "Story",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Wars. They are just following one another... Noone counts battles no more. Noone counts the dead. But bloodshed doesn't seem to be bringing us any closer to it's conclusion... ##Yet, the sword is one man's grave, and another man's bread. You are a Soldier. You live by the sword. You are ready to die by it. You never saw your way as a choice.",
+               "srb": "Ратови се низаше један за другим... Нико више ни не броји битке и многе бојеве. Нико не броји мртве. А крвопролиће као да нас уопште не приближава своме завршетку. ##Ипак - мач је једноме гроб, а другоме хлебац. Ти си Војник. Живиш по мачу и од мача - спреман си да умреш од њега. Тај пут никада није био ствар избора, чинило се."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": 1,
+      "next_room": ""
+   },
+   {
+      "id": 1,
+      "name": "Story",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Serving as a centurion of king Kiron I of Rat-Hamad, you have been ordered to lead your centuria to the war torn part of the Kingdom, and reinforce an old fort that has been standing on thin ice during the ongoing Barbarian Rebelion and ever growing threat of monsters and beasts of the area.",
+               "srb": "Служећи као стотинар краља Кирона I од Рат-Хамада, заповеђено ти је да поведеш своју стотину у ратом разорени део Краљевства, како би појачао једно старо утврђење које већ неко време стоји на стакленим ногама окружено побуњеним Варварима и све већом претњом чудовишта тога краја."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": 2,
+      "next_room": ""
+   },
+   {
+      "id": 2,
+      "name": "Story",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Traveling through, least to say - inhospitable enviroment - you've struggled to keep your centuria 'on legs'. First time it were the witty Zgrobas that ambushed and killed five of your men, the other time it were just endless miles of infamous Marshlands of Vitezin with it's shallows and muds that tare down spirit and straingt. Already, you were decimated... And Barbarians you haven't even came across.",
+               "srb": "Путујући кроз, мало је рећи - негостољубиву средину - својски си се трудио да одржиш чету 'на ногама'. Првога пута то су биле лукаве Згробе, које су у заседи убиле петорицу твојих људи. Следећи пут, муке су ти пружале бескрајне тисуће корачаја Витезинских Мочвара, које својим плићацима и муљом црпише дух и снагу људи, па и животиња. Већ бејасте десетковани... А на Варваре ни не наиђосте."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": 3,
+      "next_room": ""
+   },
+   {
+      "id": 3,
+      "name": "Story",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Finally, the Fort has shown itself on the horizont! But something wasn't right... You didn't see any flags flying above it...",
+               "srb": "Коначно, утврђење се указаше на хоризонту! Али нешто не беше право... Не видеше се заставе које би носио ветар..."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": 4,
+      "next_room": ""
+   },
+   {
+      "id": 4,
+      "name": "Story",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Upon reaching it, your suspicions proved to be true - the fort was without garrison, with destroyed gate, and gray and black signs of devouring fire that layed waste to fort's inner wooden buildings... ##You didn't want to believe that you were at the right place. Erant the Cartographer pulled out a map so you could examine it, but that was the moment when you were attacked for the second time!",
+               "srb": "Када му приђосте, твоје сумње се показаше тачнима - утврђење беше без посаде, са уништеном капијом и црносивим траговима прождируће ватре која је опустошила унутрашње дрвене грађевине... ##Ниси желео да верујеш да си на правом месту. Ерант Картограф извади карту како бисте је проучили, али то беше тренутак када сте поново нападнути!"
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": 5,
+      "next_room": ""
+   },
+   {
+      "id": 5,
+      "name": "Story",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "You could swear there was a whole horde of Zgrobas! The fight was hard, but the men stood strong and have repelled the attacker at the end... Yet, 9 men gave their last breath for this small victory, and another 16 were wounded. Heavens know how terrible would the losses be if you weren't behind the damaged walls... Still, you feel that it is not the time for thinking, but for acting! The men are awaiting your command!",
+               "srb": "Могао си да се закунеш да их је била читава хорда - Згроба! Бој беше претежак, али људи стајаше чврсто и на крају одбише нападача... Ех, али девет људи својим последњим дахом платише ову малу победу, а 16 остаде повређенима. Небо зна колико страшни би били губици да не бејасте позади оштећених зидина... Но, осећаш да није време за размишљање, него за делање! Људи очекују наредбу!"
+            }
+         }
+      ],
+      "choices": [
+         {
+            "text": {
+               "eng": " - We must not put our guard down! We need to prepare basic defences!",
+               "srb": " - Не смемо губити опрез! Морамо се спремити за одбрану!"
+            },
+            "variables": [],
+            "jump_to_index": 6,
+            "timers": []
+         },
+         {
+            "text": {
+               "eng": " - We have enough time to bury our fallen brothers. Then we will build a basic defence.",
+               "srb": " - Имамо довољно времена да сахранимо палу браћу. Након тога ћемо да спремимо одбрану."
+            },
+            "variables": [],
+            "jump_to_index": 9,
+            "timers": []
+         }
+      ],
+      "next_index": -1,
+      "next_room": ""
+   },
+   {
+      "id": 6,
+      "name": "You",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "First we need to barricade this breached gate, and only after will we have the luxury to bury our commrades. Make no mistake - dangers are all around us. We must not put our guards down.",
+               "srb": "Прво морамо заградити пробијену капију! Тек после тога ћемо имати ту повластицу да сахранимо своје другове. Не дајте се заварати - опасност вреба свуда око нас. Не смемо губити опрез."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": 7,
+      "next_room": ""
+   },
+   {
+      "id": 7,
+      "name": "You",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "After giving commands from the hearth of reasoning, you head to explore the fort with few of the men. ## - Let us first see the Chalicier's tower - that was the tallest building of the stronghold. ##The men nodded affirmingly and got going without a word.",
+               "srb": "Након давања наредби из срца разума, упутио си се да истражиш утврђење са неколико војника. ## - Прво ћемо да истражимо кулу Пехарницу - беше то највиша зграда у утврђењу. ## Људи само климнуше главом и пођоше без речи."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": 8,
+      "next_room": ""
+   },
+   {
+      "id": 8,
+      "name": "You",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Upon entering the tower, you started climbing the stairs. You saw what used to be Chalicier's bedroom and, above it, the fort Headquarter. It was half burnt and in chaos, but the other half was probably saved by heavy rains, and the table proved to be well standing, and... ## - This is an unusualy big window - said Mird the Smithie. ##You confirmed, enjoying the sunlight, and thinking about occupying this room for the time being...",
+               "srb": "Када уђосте у кулу, ступисте на степениште. Видесте собе које некада беху пехарникове спаваће одаје, а изнад тога и пехаринкове главне одаје. Она је била полу изгорела и без икаквог реда. Али са друге стране, половина је била спасена пљусковима, сто се чинио чврстим, а прозор... ## - Ово је неуобичајено велики прозор - рече Мирд Ковач. ##Потврдио си, уживајући у сунчевим зрацима и размишљајући о запоседању ове просторије до даљњег..."
+            }
+         }
+      ],
+      "choices": [
+         {
+            "text": {
+               "eng": " - Let's go upstairs and see the other floors.",
+               "srb": " - Обиђимо горње спратове."
+            },
+            "variables": [],
+            "jump_to_index": -2,
+            "timers": []
+         },
+         {
+            "text": {
+               "eng": " - Go help with barricades. I will stay here for a while.",
+               "srb": " - Идите помозите са заграђивањем. Ја ћу остати овде до даљњег."
+            },
+            "variables": [
+               {
+                  "script": "variable_set_by_string",
+                  "arguments": [
+                     "Protagonist.authoritative",
+                     "+",
+                     1
+                  ]
+               },
+               {
+                  "script": "variable_set_by_string",
+                  "arguments": [
+                     "Protagonist.cautious",
+                     "+",
+                     -1
+                  ]
+               },
+               {
+                  "script": "variable_set_by_string",
+                  "arguments": [
+                     "Game_CTRL.knowledge_laomd_coat_of_arms",
+                     "=",
+                     1
+                  ]
+               }
+            ],
+            "jump_to_index": 10,
+            "timers": []
+         },
+         {
+            "text": {
+               "eng": " - Bannerbearer, stay in front and guard the door. The rest can go help with the barricades. (You stay in the chamber.)",
+               "srb": " - Барјактаре, стани испред и држи стражу. Остали идите помозите око заграђивања. (Остајеш у одаји.)"
+            },
+            "variables": [
+               {
+                  "script": "variable_set_by_string",
+                  "arguments": [
+                     "Protagonist.authoritative",
+                     "+",
+                     1
+                  ]
+               },
+               {
+                  "script": "variable_set_by_string",
+                  "arguments": [
+                     "Protagonist.cautious",
+                     "+",
+                     1
+                  ]
+               },
+               {
+                  "script": "variable_set_by_string",
+                  "arguments": [
+                     "Game_CTRL.knowledge_laomd_coat_of_arms",
+                     "=",
+                     1
+                  ]
+               }
+            ],
+            "jump_to_index": 10,
+            "timers": []
+         },
+         {
+            "text": {
+               "eng": " - Let's go outside and help with the barricades.",
+               "srb": " - Хајдемо напоље да помогнемо са заграђивањем."
+            },
+            "variables": [
+               {
+                  "script": "gain_respect",
+                  "arguments": [
+                     "centuria",
+                     1
+                  ]
+               }
+            ],
+            "jump_to_index": -2,
+            "timers": []
+         }
+      ],
+      "next_index": -1,
+      "next_room": ""
+   },
+   {
+      "id": 9,
+      "name": "You",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "Gather, brothers, to show our last respect to the fallen men... Zgrobas aren't coming back before they lick their wounds. We have plenty of time to bury the men, and to prepare for the next battle that await us.",
+               "srb": "Сакупимо се браћо. Пружимо последњу пошту палима... Згробе се неће враћати пре него што излижу ране. Имамо довољно времена да сахранимо људе, и још да се после тога спремимо за битке које нас следе."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": -2,
+      "next_room": ""
+   },
+   {
+      "id": 10,
+      "name": "You",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "The men went out and you were let alone in the Headquarters. You studied insignias and symbols that survived the fire. ## - A tree at a mountain top, and the Sun around them... ##",
+               "srb": "Људи отидоше и ти остаде сам у Главној одаји. Проучавао си грбове и знакове који су преживели ватру. ## - Дрво на врху стене и Сунце које га окружује... ## Уопште, читаво ово место је одисало тајновитошћу, и мноштвом неиспричаних прича."
+			   
+			   "srb": "Људи су изашли и коначно си остао сам после дуже времена. Пријало је. Свеж ваздух је улазио на велики прозор и руке су ти се нашле на тешком дрвеном столу. Подбочио си се и загледао у карту која је још увек била растрта по њему. На њој су пехарчићи, новчићи и врхови стрела означавали различите јединице на различитим местима. Имаш осећај да је овде седео и ковао планове пехарник вредан помена - а опет, ни њега ни његове посаде више нема. И његова кула једва да стоји..."
+            }
+         }
+      ],
+      "choices": [
+	  {
+            "text": {
+               "eng": "",
+               "srb": "Наставим да разледам"
+            },
+            "variables": [],
+            "jump_to_index": 11,
+            "timers": []
+         },
+		 {
+            "text": {
+               "eng": "",
+               "srb": "Нема овде шта да се гледа"
+            },
+            "variables": [],
+            "jump_to_index": 12,
+            "timers": []
+         }
+	  ],
+      "next_index": -2,
+      "next_room": "rm_table"
+   },
+   {
+      "id": 11,
+      "name": "You",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "The men went out and you were let alone in the Headquarters. You studied insignias and symbols that survived the fire. ## - A tree at a mountain top, and the Sun around them... ##",
+               "srb": "Дигао си главу од карте. Тек сада су ти у очи упале прогореле греде које са муком држе тешки камени строп. ## - Ово би могло да се уруши врло лако - помислио си... ## Прешао си погледом на зид и видео знакове који су преживели ватру - Дрво на врху стене и Сунце које га окружује... Није требало много размишљања да се претпостави да је то грб тврђаве. Осим та два грба, није било других обележја и украса."
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": -2,
+      "next_room": "rm_table"
+   },
+   {
+      "id": 11,
+      "name": "You",
+      "text": [
+         {
+            "type": "text",
+            "body": {
+               "eng": "",
+               "srb": ""
+            }
+         }
+      ],
+      "choices": [],
+      "next_index": -2,
+      "next_room": "rm_table"
+   }
+]
+

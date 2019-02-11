@@ -1,0 +1,134 @@
+[
+   {
+      "id":0,
+      "name":"Story",
+      "text":"...Being placed in inhospitable enviroment, you've struggled against great odds, to keep your troops as a whole, and on the second place - to do the job you were sent for.",
+      "choices":[
+         
+      ],
+      "next_index":1,
+      "next_room":""
+   },
+   {
+      "id":1,
+      "name":"Story",
+      "text":"Knowing the local geography, your subordinate told you about a fort nearby. You decided to find your shelter there for a day or two, before returnig to the business...",
+      "choices":[
+
+      ],
+      "next_index":2,
+      "next_room":""
+   },
+   {
+      "id":2,
+      "name":"Story",
+      "text":"On your way there, the company was spotted by four packs of Psoglavs! Damn the beasts! It was not the moment to fight them, as fort was already at sight!",
+      "choices":[
+
+      ],
+      "next_index":3,
+      "next_room":""
+   },
+   {
+      "id":3,
+      "name":"Story",
+      "text":"But... It was in ruins! Still, it was a better position to conduct a battle, then these sharp slopes that exposed all sides.",
+      "choices":[
+
+      ],
+      "next_index":4,
+      "next_room":""
+   },
+   {
+      "id":4,
+      "name":"Story",
+      "text":"Mallicious barking and howls approached the fort only few moments after your men!",
+      "choices":[
+
+      ],
+      "next_index":5,
+      "next_room":""
+   },
+   {
+      "id":5,
+      "name":"Story",
+      "text":"The battle concluded with several wounded and few of them lifeless... Glory to the fallen! But, the company struggled and survived!",
+      "choices":[
+
+      ],
+      "next_index":6,
+      "next_room":""
+   },
+   {
+      "id":6,
+      "name":"Story",
+      "text":"You keep looking at the battlefield. The company is expecting your further commands.",
+      "choices":[
+		{
+            "text":"Barricade the chokepoints where wall used to be",
+            "variables":[
+               {
+                  "script":"story_room_arg_respect",
+                  "arguments":[
+                     1
+                  ]
+               }
+            ],
+            "jump_to_index":7,
+            "timers":[
+               {
+                  "seconds":15,
+                  "variables":[
+
+                  ],
+                  "jump_to_index":7
+               }
+            ]
+         },
+         {
+            "text":"First let's burry our fallen brothers",
+            "variables":[
+
+            ],
+            "jump_to_index":8,
+            "timers":[
+               {
+                  "seconds":15,
+                  "variables":[
+                     {
+                        "script":"story_room_arg_respect",
+                        "arguments":[
+                           1
+                        ]
+                     }
+                  ],
+                  "jump_to_index":8
+               }
+            ]
+         }
+      ],
+      "next_index":-1,
+      "next_room":""
+   },
+   {
+      "id":7,
+      "name":"You",
+      "text":"Move the corpses there. First we need to barricade entrances to the fort, and only after will we have the luxury to burry our commrades. Psoglavs are all over the place, we must not put our guards down.",
+      "choices":[
+
+      ],
+      "next_index":-2,
+      "next_room":"rm_glavna"
+   },
+   {
+      "id":8,
+      "name":"You",
+      "text":"Gather, brothers, to show our last respect to the fallen men... Psoglavs aren't coming back before they lick their wounds. We have plenty of time to bury men, and prepare for the next battle.",
+      "choices":[
+
+      ],
+      "next_index":-2,
+      "next_room":"rm_glavna"
+   }
+
+]

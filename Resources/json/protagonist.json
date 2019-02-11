@@ -1,0 +1,48 @@
+{
+  "id": "",
+  "icon": "",
+  "name": "Protagonist",
+  "nickname": "",
+  "title": "Centurion",
+  "xp": 20,
+  "virtues": [
+
+  ],
+  "flaws": [
+
+  ],
+  "effects_positive": [],
+  "effects_negative": [],
+  "relations": [
+	 {
+		"Mird": 5,
+		"relation_type": "Subordinate"
+	 },
+	 {
+		"Galvin": 5,
+		"relation_type": "Subordinate"
+	 },
+	 {
+		"Hariton": 5,
+		"relation_type": "Subordinate"
+	 },
+	 {
+		"Andrej_Devetar": 5,
+		"relation_type": "Subordinate"
+	 }
+  ],
+  "log": [
+	 {
+		"date": "---",
+		"place": "---",
+		"success": "---",
+		"difficuly": "---",
+		"task_type": "---",
+		"task_description": "---",
+		"company": [],
+		"company_leader": "a number"
+	 }
+  ]
+}
+
+
