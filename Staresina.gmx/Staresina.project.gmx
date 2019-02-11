@@ -123,6 +123,7 @@
       <sprite>sprites\spr_building_peharnica</sprite>
       <sprite>sprites\spr_building_unknown</sprite>
     </sprites>
+    <sprite>sprites\spr_magla</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_mountains</background>
@@ -149,6 +150,7 @@
     <script>scripts\move_to_building.gml</script>
     <script>scripts\check_time_encounters.gml</script>
     <script>scripts\show_message_custom_debug.gml</script>
+    <script>scripts\create_cloud.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -206,6 +208,7 @@
       <object>objects\obj_building_storage</object>
       <object>objects\obj_building_gate</object>
     </objects>
+    <object>objects\obj_magla</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
