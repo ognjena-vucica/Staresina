@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>///Initialize
 
+//OVO JE TAKODJE VEROCATNO ZASTARELO KAO I TEXT POPUP CTRL KOJI VISE NE KORISTIM
+
 alpha = 0;
 print = "";
 typed_letters = 0;

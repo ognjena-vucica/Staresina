@@ -36,7 +36,11 @@ print = "";
 choice_selector_index = 0;
 
 typed_letters = 0;
-typing_speed = 100;
+if (!Game_CTRL.custom_debug_mode){
+    typing_speed = 3;
+}else{
+    typing_speed = 10
+}
 
 //timer variables
 seconds_elapsed = 0;
@@ -315,7 +319,8 @@ if(down_pressed){
 //Add letters over time
 
 if (typed_letters &lt; current_text_string_length){
-    typed_letters += 10;//typing_speed;
+    typed_letters += typing_speed;
+    show_debug_message(typing_speed);
     print = string_copy(current_text_string, 0, typed_letters);
 }
 

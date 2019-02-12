@@ -25,8 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>language = "eng";
+            <string>//languages "eng", "srb"
+language = "eng";
 
+//custom debug mode for prewritten error msgs and faster typing speed in story mode
+custom_debug_mode = false;
+
+//create controllers
 instance_create_unique(0,0,Army_CTRL);
 instance_create_unique(0,0,Resources);
 instance_create_unique(0,0,Quest_CTRL);
@@ -34,10 +39,10 @@ instance_create_unique(0,0,Protagonist);
 instance_create_unique(0,0,Time_CTRL);
 instance_create_unique(0,0,Fort);
 
+//are stories heard or not. Initially NOT
+//this should be the list of all stories (and encounter stories)
 told_story_banner = false;
 knowledge_laomd_coat_of_arms = false;
-
-custom_debug_mode = false;
 </string>
           </argument>
         </arguments>

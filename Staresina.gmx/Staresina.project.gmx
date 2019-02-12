@@ -124,6 +124,9 @@
       <sprite>sprites\spr_building_unknown</sprite>
     </sprites>
     <sprite>sprites\spr_magla</sprite>
+    <sprites name="Pozadina animacija">
+      <sprite>sprites\anim_pozadina</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_mountains</background>
@@ -151,6 +154,7 @@
     <script>scripts\check_time_encounters.gml</script>
     <script>scripts\show_message_custom_debug.gml</script>
     <script>scripts\create_cloud.gml</script>
+    <script>scripts\scr_menu_button_clicked.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -175,7 +179,7 @@
     <objects name="MENU BUTTONS">
       <object>objects\obj_menu_button_parent</object>
       <object>objects\obj_button_start</object>
-      <object>objects\obj_button_cinematic</object>
+      <object>objects\obj_button_story</object>
       <object>objects\obj_button_options</object>
       <object>objects\obj_button_quit</object>
     </objects>
@@ -208,7 +212,11 @@
       <object>objects\obj_building_storage</object>
       <object>objects\obj_building_gate</object>
     </objects>
-    <object>objects\obj_magla</object>
+    <objects name="ANIM POZADINA">
+      <object>objects\obj_anim_pozadina</object>
+      <object>objects\obj_anim_bcg_deo</object>
+      <object>objects\obj_magla</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>

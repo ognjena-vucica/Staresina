@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create_unique(x,y,obj_cinematic_text_box);
+            <string>//THIS IS PROBABLY ABSOLETE
+//OVO JE VEROVATNO BILO SAMO ZA TESTIRANJE NA POCETKU PRE NEGO STO JE JSON PRORADIO
+
+instance_create_unique(x,y,obj_cinematic_text_box);
 
 text1 = "...Being placed in inhospitable enviroment, you've struggled against great odds, to keep your troops as a whole, and on the second place - to do the job you were sent for.";
 text2 = 'Knowing the local geography, your subordinate told you about a fort nearby. You decided to find your shelter there for a day or two, before returnig to the business...';
