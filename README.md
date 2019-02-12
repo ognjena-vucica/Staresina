@@ -11,4 +11,4 @@ IT IS STILL WORK IN PROGRESS OFC
 
 but it would be kinda interesting if something universal would be made - a game maker built tool for making games of this specific genre (text adventures) easilly
 
-I am, of course, just using it to make my own game... But it is interesting to have more benefit from the work, and to make something useful for everybody (or some other people at least).
+I am, of course, just using it to make my own game at the moment, but at paralel making a fine system... So it may be useful for everybody (or some other people at least) at some point.
