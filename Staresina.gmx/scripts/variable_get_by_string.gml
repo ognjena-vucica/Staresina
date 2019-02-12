@@ -28,6 +28,12 @@ switch (argument0) {
     case "Game_CTRL.knowledge_laomd_coat_of_arms":
         return Game_CTRL.knowledge_laomd_coat_of_arms;
     break;
+    
+    //FOR BUILDING REVEALED variables
+    
+    case "obj_building_barracks":
+        return Fort.barracks_revealed;
+    break;
 
     default:
         show_message("variable_get_by_string: " + argument0 + " is not a known variable.");

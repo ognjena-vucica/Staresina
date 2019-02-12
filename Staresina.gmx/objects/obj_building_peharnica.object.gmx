@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>rm = rm_table;
 
-state_of_knowledge = 'known';
+revealed = Fort.peharnica_revealed;
 </string>
           </argument>
         </arguments>

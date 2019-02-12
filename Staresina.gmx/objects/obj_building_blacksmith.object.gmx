@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>rm = rm_blacksmith;
-state_of_knowledge = 'unknown';
+revealed = Fort.blacksmith_revealed;
 </string>
           </argument>
         </arguments>

@@ -26,6 +26,19 @@
           <argument>
             <kind>1</kind>
             <string>flag = "";
+
+/*remeber here which buildings have been revealed to the player
+0: purpose unkown
+1: purpose known
+2: good knowledge of all rooms
+3: knowledge of every corner, hiden passage and item
+*/
+peharnica_revealed = 1;
+barracks_revealed = 0;
+blacksmith_revealed = 0;
+hospital_revealed = 0;
+storage_revealed = 0;
+gate_revealed = 1;
 </string>
           </argument>
         </arguments>

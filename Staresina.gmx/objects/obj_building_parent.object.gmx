@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0;
+true_sprite_index = sprite_index;
 
-if (state_of_knowledge == 'unknown'){
+if (revealed == 0){
     sprite_index = spr_building_unknown;
 }
 </string>
