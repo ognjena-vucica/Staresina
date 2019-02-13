@@ -28,6 +28,12 @@
             <string>///create bcg elements
 
 with instance_create(0,0,obj_anim_bcg_deo){
+    image_index = 0;
+    depth = 0;
+    nivo_dubine = 0;
+}
+
+with instance_create(0,0,obj_anim_bcg_deo){
     image_index = 1;
     depth = 1;
     nivo_dubine = 1;
@@ -45,10 +51,15 @@ with instance_create(0,0,obj_anim_bcg_deo){
     nivo_dubine = 3;
 }
 
-with instance_create(0,0,obj_anim_bcg_deo){
-    image_index = 4;
+//nebo
+with instance_create(0,0,obj_anim_bcg_nebo){
+    //image_index = 4; //vec je zadato tamo, samo da vidim koje resenje je optimalno, gde da zadam to
     depth = 4;
     nivo_dubine = 4;
+    kretanje = true;
+    smer = true;
+    pozicija_menjanja_smera_ka_desno = room_width - sprite_width// + sprite_xoffset;
+    pozicija_menjanja_smera_ka_levo = 0// + sprite_xoffset;
 }
 
 

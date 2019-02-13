@@ -39,6 +39,7 @@ blacksmith_revealed = 0;
 hospital_revealed = 0;
 storage_revealed = 0;
 gate_revealed = 1;
+walls_revealed = 0;
 </string>
           </argument>
         </arguments>
