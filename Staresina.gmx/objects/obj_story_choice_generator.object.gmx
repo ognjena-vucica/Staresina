@@ -61,6 +61,10 @@ alarm[0] = 2;
           <argument>
             <kind>1</kind>
             <string>///generate a choice
+//PRE SVEGA NAPOMENA ZA EDIT JSON prica
+//kljuc id je samo komentar, nema nikakvu sistemsku vaznost!
+//sistem trazi po redosledu, i to je za njega INDEX
+//id je samo komentar za laksu orijentaciju!
 
 choice = ds_map_create();
 choice = ds_list_find_value(choices_list, choice_numero);
