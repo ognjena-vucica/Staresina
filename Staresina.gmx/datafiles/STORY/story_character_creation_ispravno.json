@@ -1,0 +1,3 @@
+﻿[{"id":0,"name":"Story","text":[{"type":"text","body":{"eng":"---","srb":"Стотинаре, добро дошао у Приче Предака! Како ти је име?"}}],"choices":[{"text":{"eng":"---","srb":"Веомар!"},"variables":[{"script":"variable_set_by_string","arguments":["centurion_name","=","Веомар"]}],"jump_to_index":1,"timers":[]},{"text":{"eng":"---","srb":"Денедариос!"},"variables":[{"script":"variable_set_by_string","arguments":["centurion_name","=","Денедариос"]}],"jump_to_index":1,"timers":[]}],"next_index":-1,"next_room":""},{"id":1,"name":"Story","text":[{"type":"text","body":{"eng":"---","srb":"Свака част!"}}],"choices":[],"next_index":-2,"next_room":""}]
+
+

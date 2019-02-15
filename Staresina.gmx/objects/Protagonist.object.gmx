@@ -47,15 +47,15 @@ relations = ds_map_create();
 relations = ds_map_find_value(protagonist_data,"relations");
 log = ds_map_find_value(protagonist_data,"log");
 
-authoritative = 0;
-cautious = 0;
-emotive = 0;
-
 //glavni statovi koji se biraju tokom pravljenja lika
 strength = 0;
 agility = 0;
 strategy = 0;
 tactics = 0;
+
+authoritative = 0;
+cautious = 0;
+emotive = 0;
 </string>
           </argument>
         </arguments>

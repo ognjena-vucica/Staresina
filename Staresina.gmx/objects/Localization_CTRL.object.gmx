@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,48 +25,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//languages "eng", "srb"
-language = "srb";
+            <string>/*var localization_data = ds_map_create();
+var localization_data = load_object_from_json_file("localization.json");
 
-//custom debug mode for prewritten error msgs and faster typing speed in story mode
-custom_debug_mode = false;
+story_sledeca_strana_text = "";
+effects_positive = ds_list_create();
+effects_positive = ds_map_find_value(protagonist_data,"effects_positive");
 
-//create controllers
-instance_create_unique(0,0,Army_CTRL);
-instance_create_unique(0,0,Resources);
-instance_create_unique(0,0,Quest_CTRL);
-instance_create_unique(0,0,Protagonist);
-instance_create_unique(0,0,Time_CTRL);
-instance_create_unique(0,0,Fort);
-//instance_create_unique(0,0,Localization_CTRL);
 
-//are stories heard or not. Initially NOT
-//this should be the list of all stories (and encounter stories)
-told_story_banner = false;
-knowledge_laomd_coat_of_arms = false;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="27">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>room_goto(rm_main_menu);
+name = ds_map_find_value(protagonist_data,"name");
+nickname = ds_map_find_value(protagonist_data,"nickname");
+rank = "Centurion";
+titile = "Centurion";
+xp = ds_map_find_value(protagonist_data,"xp");
+virtues = ds_list_create();
+virtues = ds_map_find_value(protagonist_data,"virtues");
+defects = ds_list_create();
+defects = ds_map_find_value(protagonist_data,"defects");
+
+effects_negative = ds_list_create();
+effects_negative = ds_map_find_value(protagonist_data,"effects_negative");
+relations = ds_map_create();
+relations = ds_map_find_value(protagonist_data,"relations");
+log = ds_map_find_value(protagonist_data,"log");*/
 </string>
           </argument>
         </arguments>

@@ -38,39 +38,6 @@ switch (variable_name) {
         }
     break;
     
-    case "Protagonist.authoritative":
-        switch (function){
-            case "=":
-                Protagonist.authoritative = value;
-            break;
-            case "+":
-                Protagonist.authoritative += value;    
-            break;
-        }
-    break;
-    
-    case "Protagonist.cautious":
-        switch (function){
-            case "=":
-                Protagonist.cautious = value;
-            break;
-            case "+":
-                Protagonist.cautious += value;    
-            break;
-        }
-    break;
-    
-    case "Protagonist.emotive":
-        switch (function){
-            case "=":
-                Protagonist.emotive = value;
-            break;
-            case "+":
-                Protagonist.emotive += value;    
-            break;
-        }
-    break;
-    
     case "Game_CTRL.knowledge_laomd_coat_of_arms":
         switch (function){
             case "=":
@@ -82,7 +49,7 @@ switch (variable_name) {
         }
     break;
     
-    //FOR BUILDINGS REVEAL
+    //FOR BUILDINGS REVEAL ---------------------------------------------------
     case "obj_building_barracks":
         switch (function){
             case "=":
@@ -153,8 +120,86 @@ switch (variable_name) {
         Fort.flag = value;
     break;
         
+    //CHARACTER CREATION ------------------------------------------------------
     case "centurion_name": 
         Protagonist.name = value; 
+    break;
+    
+    case "centurion_strength":
+        switch (function){
+            case "=":
+                Protagonist.strength = value;
+            break;
+            case "+":
+                Protagonist.strength += value;    
+            break;
+        }
+    break;
+    
+    case "centurion_agility":
+        switch (function){
+            case "=":
+                Protagonist.agility = value;
+            break;
+            case "+":
+                Protagonist.agility += value;    
+            break;
+        }
+    break;
+    
+    case "centurion_strategy":
+        switch (function){
+            case "=":
+                Protagonist.strategy = value;
+            break;
+            case "+":
+                Protagonist.strategy += value;    
+            break;
+        }
+    break;
+    
+    case "centurion_tactics":
+        switch (function){
+            case "=":
+                Protagonist.tactics = value;
+            break;
+            case "+":
+                Protagonist.tactics += value;    
+            break;
+        }
+    break;
+    
+    case "protagonist_authoritative":
+        switch (function){
+            case "=":
+                Protagonist.authoritative = value;
+            break;
+            case "+":
+                Protagonist.authoritative += value;    
+            break;
+        }
+    break;
+    
+    case "protagonist_cautious":
+        switch (function){
+            case "=":
+                Protagonist.cautious = value;
+            break;
+            case "+":
+                Protagonist.cautious += value;    
+            break;
+        }
+    break;
+    
+    case "protagonist_emotive":
+        switch (function){
+            case "=":
+                Protagonist.emotive = value;
+            break;
+            case "+":
+                Protagonist.emotive += value;    
+            break;
+        }
     break;
     
     default:

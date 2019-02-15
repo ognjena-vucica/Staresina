@@ -40,6 +40,23 @@
     </datafile>
     <datafiles number="12" name="STORY">
       <datafile>
+        <name>story_character_creation.json</name>
+        <exists>-1</exists>
+        <size>1302</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>story_character_creation.json</filename>
+      </datafile>
+      <datafile>
         <name>story_introduction.json</name>
         <exists>-1</exists>
         <size>3738</size>
@@ -73,23 +90,6 @@
         </ConfigOptions>
         <filename>story_banner_found.json</filename>
       </datafile>
-      <datafile>
-        <name>story_character_creation.json</name>
-        <exists>-1</exists>
-        <size>1302</size>
-        <exportAction>2</exportAction>
-        <exportDir></exportDir>
-        <overwrite>0</overwrite>
-        <freeData>-1</freeData>
-        <removeEnd>0</removeEnd>
-        <store>0</store>
-        <ConfigOptions>
-          <Config name="Default">
-            <CopyToMask>9223372036854775807</CopyToMask>
-          </Config>
-        </ConfigOptions>
-        <filename>story_character_creation.json</filename>
-      </datafile>
     </datafiles>
   </datafiles>
   <NewExtensions/>
@@ -98,6 +98,7 @@
     <sprites name="STORY">
       <sprite>sprites\spr_paper</sprite>
       <sprite>sprites\spr_choice</sprite>
+      <sprite>sprites\spr_next_page_button</sprite>
     </sprites>
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_escape</sprite>
@@ -176,6 +177,7 @@
       <object>objects\Quest_CTRL</object>
       <object>objects\Time_CTRL</object>
       <object>objects\Fort</object>
+      <object>objects\Localization_CTRL</object>
     </objects>
     <objects name="MENU BUTTONS">
       <object>objects\obj_menu_button_parent</object>
