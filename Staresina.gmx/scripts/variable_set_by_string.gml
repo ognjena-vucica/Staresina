@@ -153,6 +153,10 @@ switch (variable_name) {
         Fort.flag = value;
     break;
         
+    case "centurion_name": 
+        Protagonist.name = value; 
+    break;
+    
     default:
         show_message("variable_set_by_string: " + argument0 + " is not found as a known variable.");
 }
