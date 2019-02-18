@@ -62,7 +62,6 @@ with instance_create(0,0,obj_anim_bcg_nebo){
     pozicija_menjanja_smera_ka_levo = 0// + sprite_xoffset;
 }
 
-
 </string>
           </argument>
         </arguments>

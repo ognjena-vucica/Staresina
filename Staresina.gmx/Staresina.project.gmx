@@ -95,6 +95,13 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="LOADING SCREEN">
+      <sprite>sprites\spr_ognjena_vucica</sprite>
+      <sprite>sprites\spr_loading_scr_natpis</sprite>
+      <sprite>sprites\spr_loading_scr_txt_price_predaka</sprite>
+      <sprite>sprites\scr_loading_screen_stek</sprite>
+      <sprite>sprites\spr_loading_paok</sprite>
+    </sprites>
     <sprites name="STORY">
       <sprite>sprites\spr_paper</sprite>
       <sprite>sprites\spr_choice</sprite>
@@ -105,7 +112,6 @@
     <sprite>sprites\spr_button_storage</sprite>
     <sprite>sprites\spr_button_crew</sprite>
     <sprite>sprites\spr_sheet_army</sprite>
-    <sprite>sprites\spr_straza</sprite>
     <sprites name="SOLDIER ICONS">
       <sprite>sprites\spr_icon_mird_vau</sprite>
       <sprite>sprites\spr_icon_soldier_default</sprite>
@@ -113,6 +119,7 @@
       <sprite>sprites\spr_icon_mird</sprite>
       <sprite>sprites\spr_icon_hariton</sprite>
       <sprite>sprites\spr_rank</sprite>
+      <sprite>sprites\spr_straza</sprite>
     </sprites>
     <sprites name="BUILDINGS">
       <sprite>sprites\sprite14</sprite>
@@ -124,14 +131,15 @@
       <sprite>sprites\spr_building_peharnica</sprite>
       <sprite>sprites\spr_building_unknown</sprite>
     </sprites>
-    <sprite>sprites\spr_magla</sprite>
     <sprites name="Pozadina animacija">
       <sprite>sprites\anim_pozadina</sprite>
-      <sprite>sprites\anim_pozadina_original</sprite>
+      <sprite>sprites\spr_magla</sprite>
+      <sprite>sprites\spr_sunce</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_mountains</background>
+    <background>background\bgr_ognjena_vucica</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -167,6 +175,12 @@
     <font>fonts\fnt_arial_10_italic</font>
   </fonts>
   <objects name="objects">
+    <objects name="LOADING SCREEN">
+      <object>objects\obj_ognjena_vucica_plakat</object>
+      <object>objects\obj_loading_paok</object>
+      <object>objects\obj_loading_scr_natpis</object>
+      <object>objects\obj_loading_scr_natpis_pp</object>
+    </objects>
     <objects name="CONTROLLERS">
       <object>objects\Game_CTRL</object>
       <object>objects\Protagonist</object>
@@ -221,9 +235,11 @@
       <object>objects\obj_anim_bcg_deo</object>
       <object>objects\obj_anim_bcg_nebo</object>
       <object>objects\obj_magla</object>
+      <object>objects\obj_sunce</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_loading_screen</room>
     <room>rooms\rm_main_menu</room>
     <room>rooms\rm_table</room>
     <room>rooms\rm_story</room>
