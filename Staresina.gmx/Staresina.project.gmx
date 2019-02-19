@@ -181,6 +181,13 @@
       <object>objects\obj_loading_scr_natpis</object>
       <object>objects\obj_loading_scr_natpis_pp</object>
     </objects>
+    <objects name="ANIM POZADINA">
+      <object>objects\obj_anim_pozadina</object>
+      <object>objects\obj_anim_bcg_deo</object>
+      <object>objects\obj_anim_bcg_nebo</object>
+      <object>objects\obj_magla</object>
+      <object>objects\obj_sunce</object>
+    </objects>
     <objects name="CONTROLLERS">
       <object>objects\Game_CTRL</object>
       <object>objects\Protagonist</object>
@@ -229,13 +236,6 @@
       <object>objects\obj_building_hospital</object>
       <object>objects\obj_building_storage</object>
       <object>objects\obj_building_gate</object>
-    </objects>
-    <objects name="ANIM POZADINA">
-      <object>objects\obj_anim_pozadina</object>
-      <object>objects\obj_anim_bcg_deo</object>
-      <object>objects\obj_anim_bcg_nebo</object>
-      <object>objects\obj_magla</object>
-      <object>objects\obj_sunce</object>
     </objects>
   </objects>
   <rooms name="rooms">

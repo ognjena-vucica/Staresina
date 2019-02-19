@@ -27,6 +27,9 @@
             <kind>1</kind>
             <string>image_speed = 0;
 nivo_dubine = 0;
+
+image_alpha = 0;
+smer_tranzicije = 1;
 </string>
           </argument>
         </arguments>
@@ -49,7 +52,19 @@ nivo_dubine = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//nebo ima image_index = 4
+            <string>//sporo pojavljivanje svih delova
+switch (smer_tranzicije){
+    case 1:
+        if (image_alpha &lt; 1){
+            image_alpha += 0.02;
+        }else{
+            image_alpha = 1
+            smer_tranzicije = 0;
+        }
+    break;
+}
+
+//nebo ima image_index = 4
 //ovde cemo definisati kako da ga vozamo levo desno
 if (image_index == 4){
     if (kretanje){
