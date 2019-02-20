@@ -37,7 +37,7 @@ choice_selector_index = 0;
 
 typed_letters = 0;
 if (!Game_CTRL.custom_debug_mode){
-    typing_speed = 20//3;
+    typing_speed = 1;//20;
 }else{
     typing_speed = 10
 }

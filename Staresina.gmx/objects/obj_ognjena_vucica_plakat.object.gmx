@@ -103,7 +103,7 @@ smer_tranzicije = 1;
             image_alpha = 1
             smer_tranzicije = 0;
             alarm[0] = 90;
-            instance_create(room_width/2,room_height-200,obj_loading_scr_natpis);
+            instance_create(room_width/2,room_height-100,obj_loading_scr_natpis);
         }
     break;
     
