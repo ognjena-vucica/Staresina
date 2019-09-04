@@ -67,19 +67,19 @@ knowledge_laomd_coat_of_arms = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///toggle custom debug mode
-if (custom_debug_mode == false){
-    custom_debug_mode = true;
+            <string>///toggle custom debug mode - variables
+if (custom_debug_mode_variables == false){
+    custom_debug_mode_variables = true;
     if object_exists(obj_story_assisstant){
         obj_story_assisstant.typing_speed = 10;
     }
-    show_message("custom_debug_mode = true");
+    //show_message("custom_debug_mode_variables = true");
 }else{
-    custom_debug_mode = false;
+    custom_debug_mode_variables = false;
     if object_exists(obj_story_assisstant){
         obj_story_assisstant.typing_speed = 1;
     }
-    show_message("custom_debug_mode = false");
+    //show_message("custom_debug_mode_variables = false");
 }
 </string>
           </argument>
