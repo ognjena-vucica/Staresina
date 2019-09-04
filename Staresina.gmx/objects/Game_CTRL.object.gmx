@@ -30,6 +30,7 @@ language = "srb";
 
 //custom debug mode for prewritten error msgs and faster typing speed in story mode
 custom_debug_mode = false;
+custom_debug_mode_variables = true;
 
 //create controllers
 instance_create_unique(0,0,Army_CTRL);

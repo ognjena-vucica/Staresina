@@ -203,5 +203,9 @@ switch (variable_name) {
     break;
     
     default:
-        show_message("variable_set_by_string: " + argument0 + " is not found as a known variable.");
+        show_message("variable_set_by_string: " + variable_name + " is not found as a known variable.");
+}
+
+if(Game_CTRL.custom_debug_mode_variables){
+    show_message(variable_name + " " + function + " " + string(value));
 }
