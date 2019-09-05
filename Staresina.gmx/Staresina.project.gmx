@@ -108,11 +108,6 @@
       <sprite>sprites\spr_choice</sprite>
       <sprite>sprites\spr_next_page_button</sprite>
     </sprites>
-    <sprite>sprites\spr_button</sprite>
-    <sprite>sprites\spr_escape</sprite>
-    <sprite>sprites\spr_button_storage</sprite>
-    <sprite>sprites\spr_button_crew</sprite>
-    <sprite>sprites\spr_sheet_army</sprite>
     <sprites name="SOLDIER ICONS">
       <sprite>sprites\spr_icon_mird_vau</sprite>
       <sprite>sprites\spr_icon_soldier_default</sprite>
@@ -137,6 +132,16 @@
       <sprite>sprites\spr_magla</sprite>
       <sprite>sprites\spr_sunce</sprite>
     </sprites>
+    <sprites name="TABLE">
+      <sprite>sprites\spr_sheet_army</sprite>
+      <sprite>sprites\spr_button_crew</sprite>
+      <sprite>sprites\spr_button_storage</sprite>
+      <sprite>sprites\spr_escape</sprite>
+    </sprites>
+    <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_gui_clock</sprite>
+    <sprite>sprites\spr_gui_clock_kazaljka_minuti</sprite>
+    <sprite>sprites\spr_gui_clock_kazaljka_sati</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_mountains</background>
@@ -166,6 +171,7 @@
     <script>scripts\show_message_custom_debug.gml</script>
     <script>scripts\create_cloud.gml</script>
     <script>scripts\scr_menu_button_clicked.gml</script>
+    <script>scripts\add_time.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -238,6 +244,9 @@
       <object>objects\obj_building_storage</object>
       <object>objects\obj_building_gate</object>
     </objects>
+    <object>objects\obj_gui_clock</object>
+    <object>objects\obj_gui_clock_kazaljka_minuti</object>
+    <object>objects\obj_gui_clock_kazaljka_sati</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_loading_screen</room>
