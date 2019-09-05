@@ -20,6 +20,6 @@
   <width>90</width>
   <height>120</height>
   <frames>
-    <frame index="0">images\spr_icon_abakir_0.png</frame>
+    <frame index="0">images\spr_story_icon_default_0.png</frame>
   </frames>
 </sprite>

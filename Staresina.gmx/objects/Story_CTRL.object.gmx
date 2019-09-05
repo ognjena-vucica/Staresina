@@ -28,6 +28,8 @@
             <string>//set up story room and go to it
 
 instance_create_unique(room_width/2,room_height/8,obj_cinematic_text_box);
+instance_create_unique(obj_cinematic_text_box.x,obj_cinematic_text_box.y-16,obj_story_gui_icon_frame);
+instance_create_unique(obj_cinematic_text_box.x,obj_cinematic_text_box.y-16,obj_story_gui_icon);
 
 //room_to_go_to = Game_CTRL.story_room_next_room;
 room_to_go_to = rm_table;

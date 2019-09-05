@@ -107,6 +107,8 @@
       <sprite>sprites\spr_paper</sprite>
       <sprite>sprites\spr_choice</sprite>
       <sprite>sprites\spr_next_page_button</sprite>
+      <sprite>sprites\spr_story_icon_frame</sprite>
+      <sprite>sprites\spr_story_icon_default</sprite>
     </sprites>
     <sprites name="SOLDIER ICONS">
       <sprite>sprites\spr_icon_mird_vau</sprite>
@@ -165,6 +167,7 @@
       <script>scripts\variable_get_by_string.gml</script>
       <script>scripts\variable_set_by_string.gml</script>
       <script>scripts\gain_respect.gml</script>
+      <script>scripts\set_sprite_by_sprite_string.gml</script>
     </scripts>
     <script>scripts\move_to_building.gml</script>
     <script>scripts\check_time_encounters.gml</script>
@@ -222,6 +225,8 @@
       <object>objects\obj_story_choice_generator</object>
       <object>objects\obj_choice</object>
       <object>objects\obj_next_page_button</object>
+      <object>objects\obj_story_gui_icon_frame</object>
+      <object>objects\obj_story_gui_icon</object>
     </objects>
     <objects name="TABLE">
       <object>objects\obj_visit_barracks</object>
