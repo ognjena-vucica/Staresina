@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_self();
-draw_text(x+20,y+20,'GO TO BARRACKS');
+draw_text(x,y,'GO TO BARRACKS');
 </string>
           </argument>
         </arguments>

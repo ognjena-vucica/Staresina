@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>instance_create_unique(x,y,obj_gui_clock_kazaljka_minuti);
 instance_create_unique(x,y,obj_gui_clock_kazaljka_sati);
+
+image_speed = 0;
 </string>
           </argument>
         </arguments>

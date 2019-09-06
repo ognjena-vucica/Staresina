@@ -101,6 +101,7 @@
       <sprite>sprites\spr_loading_scr_txt_price_predaka</sprite>
       <sprite>sprites\scr_loading_screen_stek</sprite>
       <sprite>sprites\scr_loading_screen_ukras</sprite>
+      <sprite>sprites\spr_loading_scr_txt_price_predaka_POKUSAJ</sprite>
       <sprite>sprites\spr_loading_paok</sprite>
     </sprites>
     <sprites name="STORY">
