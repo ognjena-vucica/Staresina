@@ -228,6 +228,7 @@
       <object>objects\obj_next_page_button</object>
       <object>objects\obj_story_gui_icon_frame</object>
       <object>objects\obj_story_gui_icon</object>
+      <object>objects\obj_story_gui_name</object>
     </objects>
     <objects name="TABLE">
       <object>objects\obj_visit_barracks</object>

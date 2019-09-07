@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-11</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,27 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//set up story room and go to it
-
-instance_create_unique(room_width/2,room_height/8,obj_cinematic_text_box);
-instance_create_unique(obj_cinematic_text_box.x,obj_cinematic_text_box.y-16,obj_story_gui_icon_frame);
-instance_create_unique(obj_cinematic_text_box.x,obj_cinematic_text_box.y-16,obj_story_gui_icon);
-instance_create_unique(obj_story_gui_icon_frame.bbox_right+10,obj_cinematic_text_box.y+10,obj_story_gui_name);
-
-
-//room_to_go_to = Game_CTRL.story_room_next_room;
-room_to_go_to = rm_table;
-dialog_data = Game_CTRL.story_dialog_data;
-
-story_end = false;
-
-show_story_room_dialog(dialog_data);
+            <string>name_text = 'NAME';
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="1" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -62,33 +48,11 @@ show_story_room_dialog(dialog_data);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ds_list_destroy(Game_CTRL.story_room_dialog_data);
-Game_CTRL.story_room_dialog_data = ds_list_create();
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(story_end){
-    room_goto(room_to_go_to);
-}
+            <string>draw_set_colour(c_black);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_font(fnt_arial_12);
+draw_text(x,y,name_text);
 </string>
           </argument>
         </arguments>
