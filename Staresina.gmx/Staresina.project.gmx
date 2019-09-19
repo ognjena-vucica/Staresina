@@ -183,6 +183,7 @@
   <fonts name="fonts">
     <font>fonts\fnt_arial_12</font>
     <font>fonts\fnt_arial_14</font>
+    <font>fonts\fnt_arial_20</font>
     <font>fonts\fnt_arial_10_italic</font>
   </fonts>
   <objects name="objects">
